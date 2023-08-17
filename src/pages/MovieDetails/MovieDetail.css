@@ -1,0 +1,24 @@
+.movie-detail-wrapper{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-details{
+    color: var(--font-color-inverted);
+    flex-basis: 50%;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.genre{
+    /* border: 1px solid var(--dull-blue); */
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--dull-blue);
+    margin-right: 1rem;
+    color: white;
+}
