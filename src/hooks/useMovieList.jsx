@@ -22,7 +22,7 @@ function useMovieList(...args){
 
   useEffect(()=>{
     downLoadDefaultMovies(...args)
-  }, [...args]);
+  }, []);
 
   return {movieList};
 }
