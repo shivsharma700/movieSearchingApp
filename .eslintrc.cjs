@@ -16,10 +16,10 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "eslintConfig": {
+      "rules": {
+          "jsx-a11y/accessible-emoji": "off"
+      }
   },
-  "eslintConfig": {
-    "rules": {
-        "jsx-a11y/accessible-emoji": "off"
-    }
-},
+  },
 }
